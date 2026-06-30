@@ -1,0 +1,178 @@
+<!-- ====================== HEADER ====================== -->
+<header class="site-header">
+  <div class="header-container">
+    <a href="index.html" class="logo">Ruekywindoo</a>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="audisi.html">Audisi Bakat</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" aria-label="Buka menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ====================== FOOTER ====================== -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Ruekywindoo</h3>
+      <p>Form Audisi Bakat Mahasiswa ITS 2026</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="audisi.html">Audisi Bakat</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Ikuti Kami</h4>
+      <div class="social-icons">
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2 .24 2.4.41.6.24 1.1.55 1.6 1.04.5.5.8 1 1 1.6.2.4.4 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 2-.4 2.4-.2.6-.5 1.1-1 1.6-.5.5-1 .8-1.6 1-.4.2-1.2.4-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.2-2.4-.4-.6-.2-1.1-.5-1.6-1-.5-.5-.8-1-1-1.6-.2-.4-.4-1.2-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-2 .4-2.4.2-.6.5-1.1 1-1.6.5-.5 1-.8 1.6-1 .4-.2 1.2-.4 2.4-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.8.07-1 .05-1.5.2-1.9.34-.5.18-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.4-.3.9-.3 1.9C3.1 8.5 3.1 8.9 3.1 12s0 3.5.07 4.8c.05 1 .2 1.5.34 1.9.18.5.4.8.7 1.1.3.3.6.5 1.1.7.4.1.9.3 1.9.3 1.3.07 1.7.07 4.8.07s3.5 0 4.8-.07c1-.05 1.5-.2 1.9-.34.5-.18.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.4.3-.9.3-1.9.07-1.3.07-1.7.07-4.8s0-3.5-.07-4.8c-.05-1-.2-1.5-.34-1.9-.18-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.4-.1-.9-.3-1.9-.3-1.3-.07-1.7-.07-4.8-.07zm0 3.4a4.6 4.6 0 1 1 0 9.2 4.6 4.6 0 0 1 0-9.2zm0 7.6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5.9-7.8a1.07 1.07 0 1 1-2.14 0 1.07 1.07 0 0 1 2.14 0z"/></svg>
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.9 3H22l-7.6 8.7L23.3 21h-7.3l-5.7-6.7L3.7 21H.5l8.1-9.3L1 3h7.4l5.1 6.1L18.9 3zm-1.3 16h2L7.4 5h-2l12.2 14z"/></svg>
+        </a>
+        <a href="mailto:contact@ruekywindoo.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24-8 6-8-6V18h16V8.24z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Ruekywindoo — ITS. All rights reserved.</p>
+  </div>
+</footer>
+
+<style>
+  :root {
+    --primary: #1f2937;
+    --accent: #4f46e5;
+    --bg: #ffffff;
+    --text-light: #9ca3af;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Segoe UI', Roboto, sans-serif; }
+
+  /* HEADER */
+  .site-header {
+    background: var(--primary);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  }
+  .header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+  }
+  .logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .5px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .2s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-toggle { display: none; flex-direction: column; gap: 4px; background: none; border: none; cursor: pointer; }
+  .nav-toggle span { width: 24px; height: 2px; background: #fff; }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background: var(--primary);
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s ease;
+    }
+    .nav-links.open { max-height: 300px; padding: 10px 0; }
+    .nav-links li { padding: 10px 0; }
+    .nav-toggle { display: flex; }
+  }
+
+  /* FOOTER */
+  .site-footer {
+    background: var(--primary);
+    color: #d1d5db;
+    margin-top: 60px;
+  }
+  .footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 30px;
+  }
+  .footer-brand h3 { color: #fff; margin: 0 0 8px; }
+  .footer-brand p { margin: 0; color: var(--text-light); font-size: .9rem; }
+  .footer-links h4, .footer-social h4 { color: #fff; margin: 0 0 12px; font-size: 1rem; }
+  .footer-links ul { list-style: none; padding: 0; margin: 0; }
+  .footer-links li { margin-bottom: 8px; }
+  .footer-links a { color: #d1d5db; text-decoration: none; font-size: .92rem; }
+  .footer-links a:hover { color: var(--accent); }
+  .social-icons { display: flex; gap: 14px; }
+  .social-icons a { color: #d1d5db; transition: color .2s; }
+  .social-icons a:hover { color: var(--accent); }
+  .footer-bottom {
+    text-align: center;
+    padding: 16px 10px;
+    border-top: 1px solid rgba(255,255,255,.1);
+    font-size: .85rem;
+    color: var(--text-light);
+  }
+
+  @media (max-width: 768px) {
+    .footer-container { grid-template-columns: 1fr; text-align: center; }
+    .social-icons { justify-content: center; }
+  }
+</style>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  if (toggle) {
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  }
+</script>
